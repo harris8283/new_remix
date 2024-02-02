@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.4.22+commit.4cb486ee"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "setA",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getA",
+				"outputs": [
+					{
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ModifierDemo.sol": "ModifierDemo"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ModifierDemo.sol": {
+			"keccak256": "0xbb0beda4091a5501281b2c4f24384189ca5ac844446f7f31b8142af616968e28",
+			"urls": [
+				"bzzr://0c371e18ec0ae2711c774121e0d76bf522dd96b46af367fd0a670d9a50917cce"
+			]
+		}
+	},
+	"version": 1
+}

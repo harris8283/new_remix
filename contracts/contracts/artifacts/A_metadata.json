@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "v",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "val",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/00_MyState.sol": "A"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/00_MyState.sol": {
+			"keccak256": "0x0d6d9dcdb2332d7ba9c98d12182b48f38300f90796cc45893b5c8a245b66c3bf",
+			"urls": [
+				"bzz-raw://4c1eefdbdc0bad59d8f46b759a8b3a066cff5b2f7868212c9c57b26ac4008c02",
+				"dweb:/ipfs/QmVWXkFrtwnyEbsbFUUc6jGQwrjFTaPixpJFK33L5uk1Pz"
+			]
+		}
+	},
+	"version": 1
+}

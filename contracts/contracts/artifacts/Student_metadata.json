@@ -1,0 +1,209 @@
+{
+	"compiler": {
+		"version": "0.4.22+commit.4cb486ee"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_addresscode",
+						"type": "address"
+					}
+				],
+				"name": "addressfindcode",
+				"outputs": [
+					{
+						"name": "_usercode",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_ID",
+						"type": "string"
+					}
+				],
+				"name": "IDfindmember",
+				"outputs": [
+					{
+						"name": "ID",
+						"type": "string"
+					},
+					{
+						"name": "addresscode",
+						"type": "address"
+					},
+					{
+						"name": "phone",
+						"type": "string"
+					},
+					{
+						"name": "email",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_usercode",
+						"type": "uint256"
+					}
+				],
+				"name": "codefindmember",
+				"outputs": [
+					{
+						"name": "ID",
+						"type": "string"
+					},
+					{
+						"name": "addresscode",
+						"type": "address"
+					},
+					{
+						"name": "phone",
+						"type": "string"
+					},
+					{
+						"name": "email",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_ID",
+						"type": "string"
+					}
+				],
+				"name": "IDfindcode",
+				"outputs": [
+					{
+						"name": "_usercode",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_ID",
+						"type": "string"
+					},
+					{
+						"name": "_addresscode",
+						"type": "address"
+					},
+					{
+						"name": "_phone",
+						"type": "string"
+					},
+					{
+						"name": "_email",
+						"type": "string"
+					}
+				],
+				"name": "createmember",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_ID",
+						"type": "string"
+					}
+				],
+				"name": "deletemember",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_ID",
+						"type": "string"
+					},
+					{
+						"name": "_addresscode",
+						"type": "address"
+					},
+					{
+						"name": "_phone",
+						"type": "string"
+					},
+					{
+						"name": "_email",
+						"type": "string"
+					}
+				],
+				"name": "IDmodifymember",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Student.sol": "Student"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Student.sol": {
+			"keccak256": "0x946b5226ba3212041b3c49deb55aa94bb8f8f06ed8dd1fa3fbb2c94412f173c3",
+			"urls": [
+				"bzzr://021af816dbb890df53a92114630b167257d89ec8791ea815808912d021d16707"
+			]
+		}
+	},
+	"version": 1
+}

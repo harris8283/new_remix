@@ -1,0 +1,122 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "initOwner",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "initData",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "dataToLog",
+						"type": "uint256"
+					}
+				],
+				"name": "logData",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "getData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "returnData",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "increaseData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newData",
+						"type": "uint256"
+					}
+				],
+				"name": "setData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/02_Structure.sol": "Structure"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/02_Structure.sol": {
+			"keccak256": "0x431dbd7d87c07d856a7231ba79e8dabdff6ec0a6865cc6371f21bd89fa23f6b3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8ea7cb6234a55441afa08627ce3d3820f38b312faaa1cda1d6f7bde085e4f714",
+				"dweb:/ipfs/QmP56BHbJ3ePeEpHjYxhVyKqpSGGZmpuAhxup4fverkY2T"
+			]
+		},
+		"contracts/03_Math.sol": {
+			"keccak256": "0x0366d8f4abccae1fab270bdf737b004fba849415f3bf88b2c623b4ab86cbcc49",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d0b500f3209b84ec09e65af10b18bd9b85c75c1964c7c94b2d0f2800dc111c0b",
+				"dweb:/ipfs/QmUgEThAmKPe7i5SqYbyDBEeNRMacWzKmr1B6RqsRyMjcg"
+			]
+		}
+	},
+	"version": 1
+}
