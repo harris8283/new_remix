@@ -76,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/work/customer.sol": "Owner"
+			"contracts/contracts/work/customer1.sol": "Owner"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -90,12 +90,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/work/customer.sol": {
-			"keccak256": "0x890e7ec97a12a71d952fff5c5d4202aaa6759b915995890e341463f079675683",
+		"contracts/contracts/work/customer1.sol": {
+			"keccak256": "0x3b08eeb8cec397eb2dc27c3b32566e5e66e653c294710e8437ed8b42ee62fe48",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://2093a626bc8c199cb99e8dc3bea4c5025a3a90a413363069ba8703beae8c9890",
-				"dweb:/ipfs/QmQ64tTEKjy7qPfPNCSCP2yFCN1QC2tnPrRXVnTZHWwtZT"
+				"bzz-raw://f7572701e8cabcb2e995a234db042e02eccad65c07637062418d70c2e2eef3bd",
+				"dweb:/ipfs/QmPJYh72ezkfiqftCTeDHmb9HyLZh9mYPasWGRfHf4VZuT"
 			]
 		}
 	},
